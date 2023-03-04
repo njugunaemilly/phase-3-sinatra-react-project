@@ -10,12 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_04_184131) do
+ActiveRecord::Schema.define(version: 2023_03_04_192316) do
 
   create_table "Boards", force: :cascade do |t|
-    t.integer "projects_id"
-    t.integer "tasks_id"
     t.string "name"
+    t.integer "projects_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -30,6 +29,9 @@ ActiveRecord::Schema.define(version: 2023_03_04_184131) do
     t.string "name"
     t.string "description"
     t.date "date_due"
+    t.integer "boards_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end
