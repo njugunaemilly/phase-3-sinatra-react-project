@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2023_03_04_192316) do
   create_table "Tasks", force: :cascade do |t|
     t.string "name"
     t.string "description"
+    t.boolean "completed"
     t.date "date_due"
     t.integer "boards_id"
     t.datetime "created_at", precision: 6, null: false
