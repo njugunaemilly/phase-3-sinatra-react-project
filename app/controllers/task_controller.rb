@@ -35,13 +35,7 @@ class TaskController < Sinatra::Base
       description: params[:description],
       completed: params[:completed],
       date_due: params[:date_due],
-    )
-    task.save(
-        {
-            "Message": "Task updated"
-        }
-    )
-    task.to_json()
+    ).to_json()
   end
   #Delete task
   delete "/task/:id" do
