@@ -51,7 +51,7 @@ group :test do
   gem "rspec-json_expectations", "~> 2.2"
 end
 
-group :production development
+group :production do
 gem 'pg', '~> 1.4', '>= 1.4.6'
 gem 'puma', '~> 6.1', '>= 6.1.1'
 end
