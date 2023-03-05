@@ -12,4 +12,7 @@ end
 use Rack::JSONBodyParser
 
 # Our application
+use ProjectController 
+use BoardController 
+use TaskController
 run ApplicationController
