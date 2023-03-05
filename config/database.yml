@@ -14,3 +14,12 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+
+production:
+adapter: postgresql
+database: 'railway'
+username: 'postgres'
+password: 'MsaC7NUF15lnKBUbIzUG'
+host: 'containers-us-west-143.railway.app'
+port: '6278'
+pool: 5
