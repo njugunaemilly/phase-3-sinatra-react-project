@@ -5,7 +5,7 @@ class Tasks < ActiveRecord::Migration[6.1]
       t.string :description
       t.boolean :completed
       t.date :date_due
-      t.integer :boards_id
+      t.integer :board_id
       t.timestamps
     end
   end

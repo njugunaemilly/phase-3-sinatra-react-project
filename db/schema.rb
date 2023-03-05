@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2023_03_04_192316) do
 
   create_table "Boards", force: :cascade do |t|
     t.string "name"
-    t.integer "projects_id"
+    t.integer "project_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2023_03_04_192316) do
     t.string "description"
     t.boolean "completed"
     t.date "date_due"
-    t.integer "boards_id"
+    t.integer "board_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
