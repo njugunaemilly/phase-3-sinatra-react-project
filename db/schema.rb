@@ -12,6 +12,10 @@
 
 ActiveRecord::Schema.define(version: 2023_03_04_192316) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+  enable_extension "timescaledb"
+
   create_table "Boards", force: :cascade do |t|
     t.string "name"
     t.integer "project_id"

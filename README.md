@@ -33,5 +33,5 @@ CSS
 The link to the frontend application is here:
 
 ## Copyright, License
-MIT License
-copyright 2023
+This project is available as open source under the terms of the MIT License. See the LICENSE file for more information.
+Copyright 2023
