@@ -31,7 +31,7 @@ CSS
 
 ## React Link
 The link to the frontend application is here:
-https://github.com/njugunaemilly/TaskMaster-React-Frontend
+https://github.com/njugunaemilly/React-Project-app
 
 ## Copyright, License
 This project is available as open source under the terms of the MIT License. See the LICENSE file for more information.
